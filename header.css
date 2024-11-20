@@ -1,0 +1,40 @@
+/* Estilo do cabeçalho */
+header {
+  background-color: #1c1c1c; /* Fundo preto suave */
+  color: #2b2b2b; /* Texto branco */
+  padding: 1em 2em;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra no cabeçalho */
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  max-width: 150px;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 1.5em;
+  list-style: none;
+}
+
+.nav-menu li {
+  font-size: 16px;
+}
+
+.nav-menu a {
+  color: #ff69b4; /* Rosa claro */
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.nav-menu a:hover {
+  color: #ffffff; /* Branco ao passar o mouse */
+}
